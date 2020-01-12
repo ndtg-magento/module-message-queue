@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © NTuanGiang MessageQueue, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+
+    <!--    Override Class  -->
+    <preference for="Magento\Framework\MessageQueue\ConfigInterface" type="Magento\Framework\MessageQueue\Config"/>
+    <preference for="Magento\Framework\MessageQueue\ConnectionTypeResolver" type="NTuanGiang\MessageQueue\ConnectionTypeResolver"/>
+
+</config>
